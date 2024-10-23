@@ -613,3 +613,76 @@ body {
     width: 24px;
     height: 24px;
 }
+/* Стиль для мобильных устройств (максимальная ширина 600px) */
+@media (max-width: 600px) {
+    .novoe-jekran {
+        padding: 20px; /* Уменьшаем отступы */
+    }
+
+    .bokovaja-panel {
+        position: relative; /* Убираем абсолютное позиционирование */
+        bottom: auto; /* Сбрасываем значение */
+        left: auto; /* Сбрасываем значение */
+    }
+
+    .novoe-five {
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    .igraet-sejchas-two {
+        height: 50px; /* Уменьшаем высоту для мобильных устройств */
+    }
+
+    .nazvanie {
+        font-size: 28px; /* Уменьшаем размер шрифта */
+    }
+
+    .nazvanie-treka, .artist-two {
+        font-size: 20px; /* Уменьшаем размер шрифта */
+    }
+
+    /* Другие адаптации для мобильных устройств */
+}
+
+/* Стиль для планшетов (максимальная ширина 900px) */
+@media (max-width: 900px) {
+    .novoe-jekran {
+        padding: 30px; /* Уменьшаем отступы */
+    }
+
+    .bokovaja-panel {
+        width: 70px; /* Ширина боковой панели для планшетов */
+    }
+
+    .igraet-sejchas-two {
+        height: 55px; /* Высота для планшетов */
+    }
+
+    .nazvanie {
+        font-size: 32px; /* Уменьшаем размер шрифта */
+    }
+
+    /* Другие адаптации для планшетов */
+}
+
+/* Стиль для десктопов (по умолчанию) */
+@media (min-width: 901px) {
+    .novoe-jekran {
+        padding: 44px 52px 43px 123px; /* Отступы по умолчанию для десктопов */
+    }
+
+    .bokovaja-panel {
+        width: 80px; /* Ширина боковой панели для десктопов */
+    }
+
+    .igraet-sejchas-two {
+        height: 60px; /* Высота для десктопов */
+    }
+
+    .nazvanie {
+        font-size: 35px; /* Размер шрифта для десктопов */
+    }
+
+    /* Другие адаптации для десктопов */
+}
+
